@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "puff_bench_macro"
+version = "0.1.0"
+
+[lib]
+proc-macro = true
+
+[[bin]]
+name = "main"
+path = "bin/main.rs"
+
+[dependencies]
+proc-macro2 = "1"
+quote = "1"
+syn = {version = "2", features = ["full"]}
+
+[dev-dependencies]
+puff_bench_macro = {path = "."}
