@@ -1,6 +1,7 @@
 [package]
 description = "Benchmark macros"
 edition = "2021"
+license = "None"
 name = "puff_bench_macro"
 version = "0.1.0"
 
